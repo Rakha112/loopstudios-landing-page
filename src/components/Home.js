@@ -1,6 +1,6 @@
 import React from 'react'
 
-import bgHome from '../images/mobile/image-hero.jpg'
+// import bgHome from '../images/mobile/image-hero.jpg'
 const Home = () => {
     return (
         <div className="home">
