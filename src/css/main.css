@@ -96,12 +96,22 @@ body {
           box-shadow: 0px 5px 1px 0px white;
 }
 
+.container .home {
+  height: 100vh;
+  background-image: url("../images/mobile/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .container .home .bgHero {
-  position: absolute;
   width: 100%;
 }
 
-.container .home h1 {
+.container .home .overlay {
+  padding-top: 28.25rem;
+}
+
+.container .home .overlay h1 {
   border: 1px solid white;
   margin: 0 3rem;
   padding: 3rem;
@@ -117,9 +127,6 @@ body {
     overflow: hidden;
   }
   .container .navbar {
-    margin-top: 5rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -142,6 +149,9 @@ body {
     display: none;
   }
   .container .navbar ul {
+    visibility: visible;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
     padding: 0;
     position: unset;
     display: unset;

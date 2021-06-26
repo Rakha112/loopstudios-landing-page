@@ -82,20 +82,26 @@ body {
         }
     }
     .home {
+        height: 100vh;
+        background-image: url("../images/mobile/image-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
         .bgHero {
-            position: absolute;
+            // position: absolute;
             width: 100%;
         }
-        
-        h1 {
-            border: 1px solid $White;
-            margin: 0 3rem;
-            padding: 3rem;
-            text-transform: uppercase;
-            font-family: 'Josefin Sans', sans-serif;
-            position: relative;
-            color: $White;
-            font-size: 5rem;
+        .overlay {
+            padding-top: 28.25rem;
+            h1 {
+                border: 1px solid $White;
+                margin: 0 3rem;
+                padding: 3rem;
+                text-transform: uppercase;
+                font-family: 'Josefin Sans', sans-serif;
+                position: relative;
+                color: $White;
+                font-size: 5rem;
+            }
         }
     }
 
@@ -105,9 +111,9 @@ body {
     .container {
         overflow: hidden;
         .navbar {
-            margin-top: 5rem;
-            margin-left: 3rem;
-            margin-right: 3rem;
+            // margin-top: 5rem;
+            // margin-left: 3rem;
+            // margin-right: 3rem;
             display: flex;
             justify-content: space-between;
             .logo {
@@ -125,6 +131,8 @@ body {
                 display: none;
             }
             ul {
+                visibility: visible;
+                transform: translateX(0);
                 padding: 0;
                 position: unset;
                 display: unset;
