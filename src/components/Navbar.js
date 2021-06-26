@@ -18,8 +18,7 @@ const Navbar = () => {
                     })
                 }
             </ul>
-            <img className="ham" onClick={() => setisKlik(!isKlik)} src={ham} alt="menu" />
-            <img className="close" src={close} alt="close" />
+            <img className={isKlik ? "close aktif" : "ham"} onClick={() => setisKlik(!isKlik)} src={isKlik ? close : ham} alt="menu" />
         </div>
     )
 }

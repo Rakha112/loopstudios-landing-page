@@ -47,11 +47,11 @@ body {
 }
 
 .container .navbar .close {
-  width: 2.375rem;
+  width: 3rem;
   height: auto;
   margin: auto 0;
   cursor: pointer;
-  display: none;
+  visibility: hidden;
 }
 
 .container .navbar .aktif {
@@ -97,7 +97,7 @@ body {
 }
 
 .container .home {
-  height: 100vh;
+  height: 1300px;
   background-image: url("../images/mobile/image-hero.jpg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -120,6 +120,39 @@ body {
   position: relative;
   color: white;
   font-size: 5rem;
+}
+
+.container .leader {
+  margin-top: 12rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.container .leader h2 {
+  color: dimgray;
+  padding-top: 6rem;
+  text-align: center;
+  font-size: 3.875rem;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container .leader p {
+  line-height: 1.7;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  font-size: 1.875rem;
+  text-align: center;
+  font-family: 'Alata', sans-serif;
+  color: #8c8c8c;
 }
 
 @media screen and (min-width: 1000px) {

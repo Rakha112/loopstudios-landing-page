@@ -1,4 +1,5 @@
 import Home from "./components/Home";
+import Leader from "./components/Leader";
 import Navbar from './components/Navbar'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="container">
       <Navbar />
       <Home />
+      <Leader />
     </div>
   );
 }
