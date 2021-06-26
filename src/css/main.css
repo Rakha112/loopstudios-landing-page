@@ -123,7 +123,7 @@ body {
 }
 
 .container .leader {
-  margin-top: 12rem;
+  margin: 12rem 3rem 11rem 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,8 +131,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 3rem;
-  margin-right: 3rem;
 }
 
 .container .leader h2 {
@@ -153,6 +151,60 @@ body {
   text-align: center;
   font-family: 'Alata', sans-serif;
   color: #8c8c8c;
+}
+
+.container .creations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 12rem;
+}
+
+.container .creations h2 {
+  color: dimgray;
+  text-align: center;
+  font-size: 3.875rem;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 6.5rem;
+}
+
+.container .creations button {
+  cursor: pointer;
+  border: 2px solid black;
+  background-color: transparent;
+  padding: 22px 78px;
+  color: black;
+  letter-spacing: 8px;
+  font-size: 2rem;
+  font-family: 'Alata', sans-serif;
+  margin: 0 auto;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container .creations .creation_list {
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.container .creations .creation_list h3 {
+  font-weight: 200;
+  text-align: left;
+  margin-left: 2.5rem;
+  margin-right: 25rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #8c8c8c;
+  bottom: 2rem;
+  position: absolute;
+  color: white;
+  font-size: 2.875rem;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 1000px) {
