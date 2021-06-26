@@ -1,0 +1,148 @@
+@import "property";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 15px;
+    // background-color: black;
+}
+
+// font-family: 'Alata', sans-serif;
+// font-family: 'Josefin Sans', sans-serif;
+
+.container { 
+    position: relative;
+    height: 100vh;
+    .navbar {
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        padding-top: 5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        display: flex;
+        justify-content: space-between;
+        .logo {
+            width: 18rem;
+            height: auto;
+            cursor: pointer;
+            z-index: 1;
+        }
+        .ham {
+            width: 3rem;
+            height: auto;
+            margin: auto 0;
+            cursor: pointer;
+            z-index: 1;
+        }
+        .close {
+            width: 2.375rem;
+            height: auto;
+            margin: auto 0;
+            cursor: pointer;
+            display: none;
+        }
+        .aktif {
+            visibility: visible;
+            transform: translateX(0);
+        }
+        ul {
+            visibility: hidden;
+            transform: translateX(-100%);
+            background-color: $Black;
+            position: fixed;
+            list-style: none;
+            margin-top: -5rem;
+            margin-left: -3rem;
+            padding-top: 15rem;
+            padding-bottom: 100vh;
+            width: 100%;
+            transition: all 0.5s ease;
+            li {
+                padding-left: 3rem;
+                display: block;
+                padding-bottom: 2rem;
+                cursor: pointer;
+
+                a {
+                    font-family: 'Josefin Sans', sans-serif;
+                    text-transform: uppercase;
+                    font-size: 3rem;
+                    color: $White;
+                    text-decoration: none;
+
+                }
+                a:focus {
+                    box-shadow: 0px 5px 1px 0px white;
+                }
+            }
+        }
+    }
+    .home {
+        .bgHero {
+            position: absolute;
+            width: 100%;
+        }
+        
+        h1 {
+            border: 1px solid $White;
+            margin: 0 3rem;
+            padding: 3rem;
+            text-transform: uppercase;
+            font-family: 'Josefin Sans', sans-serif;
+            position: relative;
+            color: $White;
+            font-size: 5rem;
+        }
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        overflow: hidden;
+        .navbar {
+            margin-top: 5rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            display: flex;
+            justify-content: space-between;
+            .logo {
+                width: 18rem;
+                height: auto;
+                margin: 0;
+            }
+            .ham {
+                display: none;
+                width: 3rem;
+                height: auto;
+                margin: auto 0;
+            }
+            .close {
+                display: none;
+            }
+            ul {
+                padding: 0;
+                position: unset;
+                display: unset;
+                list-style: none;
+                margin: auto 0;
+                width: auto;
+                li {
+                    display: inline-block;
+                    padding: 0;
+                    a {
+                        font-size: 2rem;
+                        color: $White;
+                        text-decoration: none;
+                    }
+
+                }
+            }
+        }
+    }
+    
+}
