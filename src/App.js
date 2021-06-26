@@ -1,7 +1,8 @@
 import Creations from "./components/Creations";
 import Home from "./components/Home";
 import Leader from "./components/Leader";
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <Leader />
       <Creations />
+      <Footer />
     </div>
   );
 }

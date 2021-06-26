@@ -93,7 +93,7 @@ body {
         .overlay {
             padding-top: 28.25rem;
             h1 {
-                border: 1px solid $White;
+                border: 2px solid $White;
                 margin: 0 3rem;
                 padding: 3rem;
                 text-transform: uppercase;
@@ -172,6 +172,40 @@ body {
                 text-transform: uppercase;
             }
         }
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $Black;
+        img {
+            margin-top: 7rem;
+            width: 18rem;
+            height: auto;
+            cursor: pointer;
+        }
+        .nav_foot {
+            margin-top: 3.5rem ;
+            a {
+                text-decoration: none;
+                color: $White;
+                font-size: 2.5rem;
+            }
+        }
+        .sosmed {
+            margin-top: 6rem;
+            img {
+                margin: 0 1rem;
+                width: 3rem;
+            }
+        }
+        p {
+            margin-top: 1rem;
+            margin-bottom: 2.875rem;
+            color: $Dark_Gray;
+            font-size: 2rem;
+        }
+        
     }
 }
 

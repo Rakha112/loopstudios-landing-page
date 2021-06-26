@@ -112,7 +112,7 @@ body {
 }
 
 .container .home .overlay h1 {
-  border: 1px solid white;
+  border: 2px solid white;
   margin: 0 3rem;
   padding: 3rem;
   text-transform: uppercase;
@@ -205,6 +205,53 @@ body {
   color: white;
   font-size: 2.875rem;
   text-transform: uppercase;
+}
+
+.container .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
+.container .footer img {
+  margin-top: 7rem;
+  width: 18rem;
+  height: auto;
+  cursor: pointer;
+}
+
+.container .footer .nav_foot {
+  margin-top: 3.5rem;
+}
+
+.container .footer .nav_foot a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.container .footer .sosmed {
+  margin-top: 6rem;
+}
+
+.container .footer .sosmed img {
+  margin: 0 1rem;
+  width: 3rem;
+}
+
+.container .footer p {
+  margin-top: 1rem;
+  margin-bottom: 2.875rem;
+  color: #8c8c8c;
+  font-size: 2rem;
 }
 
 @media screen and (min-width: 1000px) {
