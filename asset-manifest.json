@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/loopstudios-landing-page/static/css/main.083a3ca6.chunk.css",
-    "main.js": "/loopstudios-landing-page/static/js/main.02017723.chunk.js",
-    "main.js.map": "/loopstudios-landing-page/static/js/main.02017723.chunk.js.map",
+    "main.css": "/loopstudios-landing-page/static/css/main.2b330c3e.chunk.css",
+    "main.js": "/loopstudios-landing-page/static/js/main.65c7c484.chunk.js",
+    "main.js.map": "/loopstudios-landing-page/static/js/main.65c7c484.chunk.js.map",
     "runtime-main.js": "/loopstudios-landing-page/static/js/runtime-main.17bb6b69.js",
     "runtime-main.js.map": "/loopstudios-landing-page/static/js/runtime-main.17bb6b69.js.map",
     "static/js/2.7d2a2af8.chunk.js": "/loopstudios-landing-page/static/js/2.7d2a2af8.chunk.js",
     "static/js/2.7d2a2af8.chunk.js.map": "/loopstudios-landing-page/static/js/2.7d2a2af8.chunk.js.map",
     "index.html": "/loopstudios-landing-page/index.html",
-    "static/css/main.083a3ca6.chunk.css.map": "/loopstudios-landing-page/static/css/main.083a3ca6.chunk.css.map",
+    "static/css/main.2b330c3e.chunk.css.map": "/loopstudios-landing-page/static/css/main.2b330c3e.chunk.css.map",
     "static/js/2.7d2a2af8.chunk.js.LICENSE.txt": "/loopstudios-landing-page/static/js/2.7d2a2af8.chunk.js.LICENSE.txt",
     "static/media/icon-close.bbbbb006.svg": "/loopstudios-landing-page/static/media/icon-close.bbbbb006.svg",
+    "static/media/icon-facebook.e9773e52.svg": "/loopstudios-landing-page/static/media/icon-facebook.e9773e52.svg",
     "static/media/icon-hamburger.5153cb80.svg": "/loopstudios-landing-page/static/media/icon-hamburger.5153cb80.svg",
+    "static/media/icon-instagram.8d0df555.svg": "/loopstudios-landing-page/static/media/icon-instagram.8d0df555.svg",
+    "static/media/icon-pinterest.61a35844.svg": "/loopstudios-landing-page/static/media/icon-pinterest.61a35844.svg",
+    "static/media/icon-twitter.5dc7711f.svg": "/loopstudios-landing-page/static/media/icon-twitter.5dc7711f.svg",
     "static/media/image-curiosity.7f14665a.jpg": "/loopstudios-landing-page/static/media/image-curiosity.7f14665a.jpg",
     "static/media/image-deep-earth.2a157951.jpg": "/loopstudios-landing-page/static/media/image-deep-earth.2a157951.jpg",
     "static/media/image-fisheye.ff97b54e.jpg": "/loopstudios-landing-page/static/media/image-fisheye.ff97b54e.jpg",
@@ -27,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.17bb6b69.js",
     "static/js/2.7d2a2af8.chunk.js",
-    "static/css/main.083a3ca6.chunk.css",
-    "static/js/main.02017723.chunk.js"
+    "static/css/main.2b330c3e.chunk.css",
+    "static/js/main.65c7c484.chunk.js"
   ]
 }
