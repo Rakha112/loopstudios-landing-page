@@ -103,8 +103,9 @@ body {
   background-size: contain;
 }
 
-.container .home .bgHero {
+.container .home img .bgHero {
   width: 100%;
+  height: auto;
 }
 
 .container .home .overlay {
