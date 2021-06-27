@@ -5,8 +5,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    min-height: 100%;
+    min-width: 100%;
+}
 body {
     font-size: 15px;
+    min-height: 100%;
+    min-width: 100%;
     // background-color: black;
 }
 
@@ -14,7 +20,6 @@ body {
 // font-family: 'Josefin Sans', sans-serif;
 
 .container { 
-    overflow-y: scroll;
     position: relative;
     height: 100vh;
     .navbar {
