@@ -12,6 +12,7 @@ body {
 }
 
 .container {
+  overflow: hidden;
   position: relative;
 }
 
@@ -247,7 +248,7 @@ body {
   text-transform: uppercase;
 }
 
-.container .footer {
+.container .footer_M {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -261,37 +262,41 @@ body {
   background-color: black;
 }
 
-.container .footer img {
+.container .footer_M img {
   margin-top: 7rem;
   width: 18rem;
   height: auto;
   cursor: pointer;
 }
 
-.container .footer .nav_foot {
+.container .footer_M .nav_foot {
   margin-top: 3.5rem;
 }
 
-.container .footer .nav_foot a {
+.container .footer_M .nav_foot a {
   text-decoration: none;
   color: white;
   font-size: 2.5rem;
 }
 
-.container .footer .sosmed {
+.container .footer_M .sosmed {
   margin-top: 6rem;
 }
 
-.container .footer .sosmed img {
+.container .footer_M .sosmed img {
   margin: 0 1rem;
   width: 3rem;
 }
 
-.container .footer p {
+.container .footer_M p {
   margin-top: 2rem;
   margin-bottom: 2.875rem;
   color: #8c8c8c;
   font-size: 2rem;
+}
+
+.container .footer_D {
+  display: none;
 }
 
 @media screen and (max-width: 749px) {
@@ -470,7 +475,7 @@ body {
     font-size: 4.25rem;
   }
   .container .leader {
-    margin: 12rem 9rem 11.75rem 10.25rem;
+    margin: 10rem 9rem 10rem 10.25rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -532,7 +537,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 5rem;
+    margin-bottom: 4.9rem;
   }
   .container .creations .isi_creation h2 {
     margin: auto 0 auto 10.25rem;
@@ -580,6 +585,71 @@ body {
     color: white;
     font-size: 2rem;
     text-transform: uppercase;
+  }
+  .container .footer_M {
+    display: none;
+  }
+  .container .footer_D {
+    padding: 0 165px 3rem 165px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: black;
+  }
+  .container .footer_D .foot_atas {
+    margin-bottom: 1.75rem;
+    margin-top: 2.75rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container .footer_D .foot_atas img {
+    margin-top: 0;
+    width: 9rem;
+    height: auto;
+    cursor: pointer;
+  }
+  .container .footer_D .foot_atas .sosmed {
+    margin-top: 0;
+  }
+  .container .footer_D .foot_atas .sosmed img {
+    margin: 0 1rem;
+    width: 1.5rem;
+  }
+  .container .footer_D .foot_bawah {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container .footer_D .foot_bawah .nav_foot {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .container .footer_D .foot_bawah .nav_foot .foot_a {
+    margin-top: 0;
+    margin-right: 30px;
+  }
+  .container .footer_D .foot_bawah .nav_foot .foot_a a {
+    margin: auto 0;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  .container .footer_D .foot_bawah p {
+    margin: auto 0;
+    color: #8c8c8c;
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

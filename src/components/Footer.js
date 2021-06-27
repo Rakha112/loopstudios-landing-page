@@ -8,24 +8,57 @@ import pin from '../images/icon-pinterest.svg'
 const Footer = () => {
     return (
         <div className="footer">
-            <img src={logo} alt="" />
-            {
-                navList.map((data) => {
-                    return (
-                        <div className="nav_foot" key={data.id}>
-                            <a href="#">{data.p}</a>
-                        </div>
-                    )
-                })
-            }
-            <div className="sosmed">
-                <img src={fb} alt="" />
-                <img src={tw} alt="" />
-                <img src={pin} alt="" />
-                <img src={ig} alt="" />
+            <div className="footer_M">
+                <img src={logo} alt="" />
+                {
+                    navList.map((data) => {
+                        return (
+                            <div className="nav_foot" key={data.id}>
+                                <a href="#">{data.p}</a>
+                            </div>
+                        )
+                    })
+                }
+                <div className="sosmed">
+                    <img src={fb} alt="" />
+                    <img src={tw} alt="" />
+                    <img src={pin} alt="" />
+                    <img src={ig} alt="" />
+                </div>
+                <p>© 2021 Loopstudios. All rights reserved.</p>
             </div>
-            <p>© 2021 Loopstudios. All rights reserved.</p>
+            <div className="footer_D">
+                <div className="foot_atas">
+                    <img src={logo} alt="" />
+                    <div className="sosmed">
+                        <img src={fb} alt="" />
+                        <img src={tw} alt="" />
+                        <img src={pin} alt="" />
+                        <img src={ig} alt="" />
+                    </div>
+                </div>
+                <div className="foot_bawah">
+                    <div className="nav_foot">
+                        {
+                            navList.map((data) => {
+                                return (
+                                    <div className="foot_a" key={data.id}>
+                                        <a href="#">{data.p}</a>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                    
+                    
+                    <p>© 2021 Loopstudios. All rights reserved.</p>
+                </div>
+                
+            </div>
+            
         </div>
+        
+        
     )
 }
 

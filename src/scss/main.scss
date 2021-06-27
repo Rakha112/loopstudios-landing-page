@@ -14,6 +14,7 @@ body {
 // font-family: 'Josefin Sans', sans-serif;
 
 .container { 
+    overflow: hidden;
     position: relative;
     // height: 100vh;
     .navbar {
@@ -207,7 +208,7 @@ body {
         }
         
     }
-    .footer {
+    .footer_M {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -240,6 +241,9 @@ body {
             font-size: 2rem;
         }
         
+    }
+    .footer_D {
+        display: none;
     }
 }
 @media screen and (max-width: 749px) {
@@ -430,7 +434,7 @@ body {
             }
         }
         .leader {
-            margin: 12rem 9rem 11.75rem 10.25rem;
+            margin: 10rem 9rem 10rem 10.25rem;
             display: flex;
             flex-direction: row;
             position: relative;
@@ -483,7 +487,7 @@ body {
             .isi_creation {
                 justify-content: space-between;
                 display: flex;
-                margin-bottom: 5rem;
+                margin-bottom: 4.9rem;
                 h2 {
                     margin: auto 0 auto 10.25rem;
                     color: $Very_Dark_Gray;
@@ -534,6 +538,63 @@ body {
                 }
             }
             
+        }
+        .footer_M {
+            display: none;
+        }
+        .footer_D {
+            padding: 0 165px 3rem 165px;
+            display: flex;
+            flex-direction: column;
+            background-color: $Black;
+            
+            .foot_atas {
+                margin-bottom: 1.75rem;
+                margin-top: 2.75rem;
+                display: flex;
+                justify-content: space-between;
+                img {
+                    margin-top: 0;
+                    width: 9rem;
+                    height: auto;
+                    cursor: pointer;
+                }
+                .sosmed {
+                    margin-top: 0;
+                    img {
+                        margin: 0 1rem;
+                        width: 1.5rem;
+                    }
+                }
+            }
+        
+            .foot_bawah {
+                
+                display: flex;
+                justify-content: space-between;
+                .nav_foot {
+                    display: inline-flex;
+                    .foot_a {
+                        margin-top: 0 ;
+                        margin-right: 30px;
+                        a {
+                            margin: auto 0;
+                            text-decoration: none;
+                            color: $White;
+                            font-size: 1rem;
+                            
+                        }
+                    }
+                   
+                }
+                
+                p {
+                    margin: auto 0;
+                    color: $Dark_Gray;
+                    font-size: 1rem;
+                }
+            }
+        
         }
     }
     
