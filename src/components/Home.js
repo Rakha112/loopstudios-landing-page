@@ -1,6 +1,7 @@
 import React from 'react'
 
-import bgHome from '../images/mobile/image-hero.jpg'
+import bgHomeM from '../images/mobile/image-hero.jpg'
+import bgHomeD from '../images/desktop/image-hero.jpg'
 const Home = () => {
     return (
         <div className="home">
@@ -9,7 +10,8 @@ const Home = () => {
                 immersive experiences that deliver
             </h1>
             </div>
-            <img className="bgHero" src={bgHome} alt="" />
+            <img className="bgHeroM" src={bgHomeM} alt="" />
+            <img className="bgHeroD" src={bgHomeD} alt="" />
         </div>
     )
 }
