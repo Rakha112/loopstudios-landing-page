@@ -2,7 +2,7 @@ const navList = [
     {
         id: 1,
         p: "About",
-        link: '/'
+        link: '/loopstudios-landing-page'
     },
     {
         id: 2,

@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <div className="container">
         <Navbar />
-        <Route path="/" exact component={About}/>
+        <Route path="/loopstudios-landing-page" exact component={About}/>
         <Route path="/coming-soon" exact component={ComingSoon}/>
         <Footer />
       </div>

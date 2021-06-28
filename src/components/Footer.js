@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
             <div className="footer_D">
                 <div className="foot_atas">
-                    <Link to='/'>
+                    <Link to='/loopstudios-landing-page'>
                     <img src={logo} alt="" />
                     </Link>
                     

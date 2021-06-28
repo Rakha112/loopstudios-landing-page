@@ -9,7 +9,7 @@ const Navbar = () => {
     const [isKlik , setisKlik] = useState(false)
     return (
         <div className="navbar">
-            <Link to='/'>
+            <Link to='/loopstudios-landing-page'>
             <img className="logo" src={logo} alt="logo" />
             </Link>
             
