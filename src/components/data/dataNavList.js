@@ -1,23 +1,28 @@
 const navList = [
     {
         id: 1,
-        p: "About"
+        p: "About",
+        link: '/'
     },
     {
         id: 2,
-        p: "Careers"
+        p: "Careers",
+        link: '/coming-soon'
     },
     {
         id: 3,
-        p: "Events"
+        p: "Events",
+        link: '/coming-soon'
     },
     {
         id: 4,
-        p: "Product"
+        p: "Product",
+        link: '/coming-soon'
     },
     {
         id: 5,
-        p: "Support"
+        p: "Support",
+        link: '/coming-soon'
     },
 ]
 export default navList

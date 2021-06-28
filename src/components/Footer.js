@@ -5,6 +5,7 @@ import fb from '../images/icon-facebook.svg'
 import tw from '../images/icon-twitter.svg'
 import ig from '../images/icon-instagram.svg'
 import pin from '../images/icon-pinterest.svg'
+import { Link } from 'react-router-dom'
 const Footer = () => {
     return (
         <div className="footer">
@@ -14,7 +15,8 @@ const Footer = () => {
                     navList.map((data) => {
                         return (
                             <div className="nav_foot" key={data.id}>
-                                <a href="#">{data.p}</a>
+                                <Link to={data.link}><a href="#">{data.p}</a></Link>
+                                
                             </div>
                         )
                     })
@@ -29,7 +31,10 @@ const Footer = () => {
             </div>
             <div className="footer_D">
                 <div className="foot_atas">
+                    <Link to='/'>
                     <img src={logo} alt="" />
+                    </Link>
+                    
                     <div className="sosmed">
                         <img src={fb} alt="" />
                         <img src={tw} alt="" />
@@ -43,7 +48,10 @@ const Footer = () => {
                             navList.map((data) => {
                                 return (
                                     <div className="foot_a" key={data.id}>
+                                        <Link to={data.link}>
                                         <a href="#">{data.p}</a>
+                                        </Link>
+                                        
                                     </div>
                                 )
                             })

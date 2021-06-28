@@ -3,17 +3,26 @@ import logo from '../images/logo.svg'
 import ham from '../images/icon-hamburger.svg'
 import close from '../images/icon-close.svg'
 import navList from './data/dataNavList'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     const [isKlik , setisKlik] = useState(false)
     return (
         <div className="navbar">
+            <Link to='/'>
             <img className="logo" src={logo} alt="logo" />
+            </Link>
+            
             <ul className={isKlik ? "aktif" : ""} >
                 { navList.map((list) => {
-                    console.log(list);
                         return (
-                            <li key={list.id}><a href="#">{list.p}</a></li>
+                            
+                            <li key={list.id}>
+                                <Link to={list.link}>
+                                    <a href="#" >{list.p}</a>
+                                </Link>
+                            </li>
+
                         )
                     })
                 }

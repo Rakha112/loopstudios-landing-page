@@ -1,18 +1,19 @@
-import Creations from "./components/Creations";
-import Home from "./components/Home";
-import Leader from "./components/Leader";
+import About from './components/About';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ComingSoon from './components/ComingSoon';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="container">
-      <Navbar />
-      <Home />
-      <Leader />
-      <Creations />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="container">
+        <Navbar />
+        <Route path="/" exact component={About}/>
+        <Route path="/coming-soon" exact component={ComingSoon}/>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
