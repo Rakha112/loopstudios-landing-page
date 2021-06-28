@@ -225,9 +225,14 @@ body {
 }
 
 .container .creations .creations_container .creation_list {
+  background-color: black;
   margin: 0 auto;
   position: relative;
   margin-bottom: 3rem;
+}
+
+.container .creations .creations_container .creation_list img {
+  opacity: 0.8;
 }
 
 .container .creations .creations_container .creation_list img {
@@ -572,6 +577,10 @@ body {
     margin: 0;
     position: relative;
     margin-bottom: 0;
+    background-color: black;
+  }
+  .container .creations .creations_container .creation_list img {
+    opacity: 0.8;
   }
   .container .creations .creations_container .creation_list h3 {
     font-weight: 200;
@@ -641,6 +650,7 @@ body {
     margin-right: 30px;
   }
   .container .footer_D .foot_bawah .nav_foot .foot_a a {
+    font-family: 'Alata', sans-serif;
     margin: auto 0;
     text-decoration: none;
     color: white;
@@ -650,6 +660,98 @@ body {
     margin: auto 0;
     color: #8c8c8c;
     font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container {
+    overflow: hidden;
+  }
+  .container .navbar {
+    padding-top: 4rem;
+    padding-left: 10.25rem;
+    padding-right: 10rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container .navbar .logo {
+    width: 18rem;
+    height: auto;
+    margin: 0;
+  }
+  .container .navbar ul li a {
+    margin-right: 1.5rem;
+    text-transform: unset;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-family: 'Alata', sans-serif;
+  }
+  .container .home .overlay {
+    padding-top: 17rem;
+  }
+  .container .home .overlay h1 {
+    margin-right: 44rem;
+    font-size: 7rem;
+  }
+  .container .leader .isi_leader {
+    margin-left: 35.625rem;
+    margin-top: 13rem;
+    margin-right: 20rem;
+    padding-left: 5.875rem;
+    padding-top: 4.25rem;
+    background-color: white;
+    z-index: 1;
+  }
+  .container .leader .isi_leader h2 {
+    font-size: 3rem;
+  }
+  .container .leader .isi_leader p {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  .container .creations {
+    padding-bottom: 14rem;
+  }
+  .container .creations .isi_creation {
+    margin-bottom: 7rem;
+  }
+  .container .creations .isi_creation button {
+    font-size: 2rem;
+  }
+  .container .creations .creations_container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    margin: 0 10.125rem 0 10.25rem;
+    gap: 1.875rem;
+  }
+  .container .creations .creations_container .creation_list {
+    margin: 0;
+    position: relative;
+    margin-bottom: 0;
+    background-color: black;
+  }
+  .container .creations .creations_container .creation_list img {
+    opacity: 0.8;
+  }
+  .container .creations .creations_container .creation_list h3 {
+    font-weight: 200;
+    text-align: left;
+    margin-left: 2.5rem;
+    margin-right: 7rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #8c8c8c;
+    bottom: 2rem;
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
   }
 }
 /*# sourceMappingURL=main.css.map */
