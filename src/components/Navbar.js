@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     const [isKlik , setisKlik] = useState(false)
+
     return (
         <div className="navbar">
             <Link to='/loopstudios-landing-page'>
@@ -19,7 +20,7 @@ const Navbar = () => {
                             
                             <li key={list.id}>
                                 <Link to={list.link}>
-                                    <a href="#" >{list.p}</a>
+                                    <a href="#" onClick={() => setisKlik(!isKlik)} >{list.p}</a>
                                 </Link>
                             </li>
 
