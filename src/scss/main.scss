@@ -51,6 +51,7 @@ body {
             transform: translateX(0);
         }
         ul {
+            z-index: -1;
             visibility: hidden;
             transform: translateX(-100%);
             background-color: $Black;
