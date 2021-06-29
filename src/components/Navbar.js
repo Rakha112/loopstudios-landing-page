@@ -19,8 +19,8 @@ const Navbar = () => {
                         return (
                             
                             <li key={list.id}>
-                                <Link to={list.link}>
-                                    <a href="#" onClick={() => setisKlik(!isKlik)} >{list.p}</a>
+                                <Link to={list.link} onClick={() => setisKlik(!isKlik)}>
+                                    {list.p}
                                 </Link>
                             </li>
 

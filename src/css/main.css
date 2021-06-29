@@ -215,6 +215,11 @@ body {
   text-transform: uppercase;
 }
 
+.container .creations button:hover {
+  background-color: black;
+  color: white;
+}
+
 .container .creations .creations_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -366,6 +371,10 @@ body {
     padding: 10px 30px;
     font-size: 1rem;
   }
+  .container .creations button:hover {
+    background-color: black;
+    color: white;
+  }
   .container .creations .creations_container .creation_list {
     margin: 0 2rem;
     position: relative;
@@ -452,6 +461,15 @@ body {
     color: white;
     text-decoration: none;
     font-family: 'Alata', sans-serif;
+    position: relative;
+  }
+  .container .navbar ul li a:hover:after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    bottom: -5px;
+    border-bottom: 3px solid white;
   }
   .container .home {
     background-image: url("../images/desktop/image-hero.jpg");
@@ -565,6 +583,10 @@ body {
     margin: 0 10.125rem 0 0;
     text-decoration: none;
     text-transform: uppercase;
+  }
+  .container .creations .isi_creation button:hover {
+    background-color: black;
+    color: white;
   }
   .container .creations .creations_container {
     display: -ms-grid;
@@ -723,6 +745,10 @@ body {
   }
   .container .creations .isi_creation button {
     font-size: 2rem;
+  }
+  .container .creations .isi_creation button:hover {
+    background-color: black;
+    color: white;
   }
   .container .creations .creations_container {
     display: -ms-grid;
