@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/desktop-preview.jpg)
 
 ### Links
 
@@ -43,5 +43,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Rakha112)
+- Frontend Mentor - [@Rakha112](https://www.frontendmentor.io/profile/Rakha112)
