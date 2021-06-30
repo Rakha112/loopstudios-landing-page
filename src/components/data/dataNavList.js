@@ -7,22 +7,22 @@ const navList = [
     {
         id: 2,
         p: "Careers",
-        link: '/coming-soon'
+        link: '/loopstudios-landing-page/coming-soon'
     },
     {
         id: 3,
         p: "Events",
-        link: '/coming-soon'
+        link: '/loopstudios-landing-page/coming-soon'
     },
     {
         id: 4,
         p: "Product",
-        link: '/coming-soon'
+        link: '/loopstudios-landing-page/coming-soon'
     },
     {
         id: 5,
         p: "Support",
-        link: '/coming-soon'
+        link: '/loopstudios-landing-page/coming-soon'
     },
 ]
 export default navList
