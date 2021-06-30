@@ -6,10 +6,10 @@ import {HashRouter, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <div className="container">
         <Navbar />
-        <Route path="/loopstudios-landing-page" exact component={About}/>
+        <Route path="/" exact component={About}/>
         <Route path="/coming-soon" exact component={ComingSoon}/>
         <Footer />
       </div>

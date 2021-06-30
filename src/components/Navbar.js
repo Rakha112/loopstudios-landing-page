@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <div className="navbar">
-            <Link to='/loopstudios-landing-page'>
+            <Link to='/'>
             <img className="logo" src={logo} alt="logo" />
             </Link>
             
